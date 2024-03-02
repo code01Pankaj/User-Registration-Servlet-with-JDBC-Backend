@@ -1,1 +1,2 @@
 # User-Registration-Servlet-with-JDBC-Backend
+This project implements a servlet-based user registration system with JDBC (Java Database Connectivity) for the backend. It allows users to register with their credentials and stores them in a database for future authentication. This servlet utilizes Java servlet technology for handling HTTP requests and responses and JDBC for interacting with the database.
