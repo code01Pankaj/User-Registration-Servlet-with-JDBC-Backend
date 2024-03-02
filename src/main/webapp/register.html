@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  form {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+  }
+
+  form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+  form input[type="submit"] {
+    background-color: #35424a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+  <form action="reg" method="post">
+    UserName:<input type="text" name="uname"><br>
+    Password:<input type="password" name="pword"><br>
+    FirstName:<input type="text" name="fname"><br>
+    LastName:<input type="text" name="lname"><br>
+    Address:<input type="text" name="addr"><br>
+    MailId:<input type="text" name="mid"><br>
+    PhoneNo:<input type="text" name="phno"><br>
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
